@@ -38,6 +38,7 @@ const QRCodeConfigForm: React.FC<QRCodeConfigFormProps> = props => {
                     <Input
                         name='format'
                         onChange={handleInputChange}
+                        required
                         type='select'
                         value={qrCodeConfig.format}
                     >
@@ -54,6 +55,7 @@ const QRCodeConfigForm: React.FC<QRCodeConfigFormProps> = props => {
                         min={MIN_QR_CODE_SIZE}
                         name='size'
                         onChange={handleInputChange}
+                        required
                         type='number'
                         value={qrCodeConfig.size}
                     />
@@ -66,6 +68,7 @@ const QRCodeConfigForm: React.FC<QRCodeConfigFormProps> = props => {
                         min={MIN_QR_CODE_SIZE}
                         name='size'
                         onChange={handleInputChange}
+                        required
                         type='number'
                         value={qrCodeConfig.size}
                     />
@@ -78,6 +81,7 @@ const QRCodeConfigForm: React.FC<QRCodeConfigFormProps> = props => {
                     <Input
                         name='data'
                         onChange={handleInputChange}
+                        required
                         type='textarea'
                         value={qrCodeConfig.data}
                     />
