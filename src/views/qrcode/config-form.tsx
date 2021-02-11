@@ -77,7 +77,7 @@ const QRCodeConfigForm: React.FC<QRCodeConfigFormProps> = props => {
                     </Label>
                     <Input
                         name='data'
-                        onChange={event => handleInputChange(event)}
+                        onChange={handleInputChange}
                         type='textarea'
                         value={qrCodeConfig.data}
                     />
