@@ -1,0 +1,23 @@
+{
+  "site_title": "QR Code Generator",
+  "qrcode": "QR Code",
+  "footer_text": "© {{ currentYear }} QR Code Generator / Jeffrey Zaccagnini",
+  "headings": {
+    "qrcode": "Create Custom QR Codes",
+    "qrcode_form": "Configure QR Code",
+    "your_qrcode": "Your QR Code"
+  },
+  "labels": {
+    "format": "Format",
+    "size": "Size",
+    "data": "Data"
+  },
+  "controls": {
+    "generate_qrcode": "Generate QR Code",
+    "default_qrcode_config": "Restore Default Config",
+    "download_qrcode": "Download QR Code"
+  },
+  "statuses": {
+    "qrcode_error": "An error has occurred: {{ error }}."
+  }
+}
